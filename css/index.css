@@ -1,0 +1,98 @@
+body {
+    background-image: url("../pics/bgBW.jpg");
+    background-size: cover;
+}
+
+/* HEADER */
+
+header {
+    height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+}
+
+nav {
+    background-color: rgb(30,30,30);
+    max-width: 40vw;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: -webkit-column;
+    flex-direction: column;
+    flex: 1;
+    z-index: -2;
+}
+
+nav div {
+    display:-webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    justify-content: -webkit-space-around;
+    margin-top: 15px;
+}
+
+nav h2 {
+    font-family: "Impact", "teko", cursive;
+    font-size: 3em;
+    color: white;
+}
+
+#logo {
+    width: 64px;
+    height: 64px;
+}
+
+nav ul {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: -webkit-column;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 25px;
+    color: whitesmoke;
+}
+
+a {
+    display: block;
+}
+
+#navLink p {
+    width: 75%;
+    display: inline-block;
+    padding: 15px 0 15px 0;
+    font-weight: bolder;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#headerPresentation {
+    height: 100vh;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#headerPresentation img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    min-width: 60vw;
+    z-index: -1;
+}
+
+#headerPresentation h1 {
+    position: relative;
+    top: -15vh;
+    padding-left: 5vw;
+    font-family: "Abril Fatface", cursive;
+    font-size: 3em;
+    font-weight: 200;
+    color: white;
+    z-index: 1;
+}
